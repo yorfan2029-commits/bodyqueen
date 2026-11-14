@@ -57,9 +57,12 @@ window.BQ_CONFIG = {
   // color: "Beige" | "Blanco" | "Negro" | "" (general, aparece con todos)
   // Mientras esta lista esté vacía se muestran espacios provisionales.
   fotos: [
-    // { archivo: "fotos/beige-frente.jpg", color: "Beige", descripcion: "Faja Quita Fácil beige, vista frontal" },
+    { archivo: "fotos/beige-frente.jpg", color: "Beige", descripcion: "Faja Quita Fácil color beige, vista frontal" },
+    { archivo: "fotos/beige-espalda.jpg", color: "Beige", descripcion: "Faja Quita Fácil color beige, vista posterior" },
+    { archivo: "fotos/negro-frente.jpg", color: "Negro", descripcion: "Faja Quita Fácil color negro, vista frontal" },
+    { archivo: "fotos/negro-espalda.jpg", color: "Negro", descripcion: "Faja Quita Fácil color negro, vista posterior" },
   ],
-  fotoPortada: "", // ej. "fotos/portada.jpg" (si está vacío se usa la primera foto)
+  fotoPortada: "fotos/beige-frente.jpg", // si está vacío se usa la primera foto
 
   // Guía de tallas: completa con las medidas reales (déjalas "" si aún no las tienes)
   guiaTallas: [

@@ -128,7 +128,8 @@
   function fotosDelColor() {
     var propias = C.fotos.filter(function (f) { return f.color === estado.color; });
     var generales = C.fotos.filter(function (f) { return !f.color; });
-    return propias.length ? propias.concat(generales) : C.fotos;
+    // Si un color aún no tiene fotos, no se muestran fotos de otro color.
+    return propias.length ? propias.concat(generales) : generales;
   }
 
   function pintarGaleria() {
