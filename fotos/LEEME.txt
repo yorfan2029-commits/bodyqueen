@@ -1,0 +1,16 @@
+CARPETA DE FOTOGRAFÍAS · BODY QUEEN
+
+1. Sube aquí las fotos reales de las fajas (JPG o WEBP, ideal vertical 1200 x 1500 px, menos de 500 KB cada una).
+   Usa nombres sin espacios ni tildes, por ejemplo: beige-frente.jpg, negro-espalda.jpg, portada.jpg
+
+2. Luego abre config.js y agrégalas en la lista "fotos", por ejemplo:
+
+   fotos: [
+     { archivo: "fotos/beige-frente.jpg", color: "Beige", descripcion: "Faja Quita Fácil beige, vista frontal" },
+     { archivo: "fotos/negro-frente.jpg", color: "Negro", descripcion: "Faja Quita Fácil negra, vista frontal" },
+     { archivo: "fotos/detalle.jpg", color: "", descripcion: "Detalle del diseño Quita Fácil" },
+   ],
+   fotoPortada: "fotos/portada.jpg",
+
+   - color: "Beige", "Blanco" o "Negro" para que la foto aparezca al elegir ese color.
+   - color: "" para fotos generales que aparecen con todos los colores.
